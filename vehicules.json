@@ -1,0 +1,14 @@
+[
+  {
+    "marque": "Peugeot",
+    "modele": "208",
+    "prix": 9500,
+    "annee": 2018
+  },
+  {
+    "marque": "Renault",
+    "modele": "Clio",
+    "prix": 8700,
+    "annee": 2017
+  }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prendre Rendez-vous</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="LOGO_BRS MOTORS.PNG" alt="BRS Motors Logo" class="logo" />
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="vehicules.html">Véhicules</a>
+      <a href="rdv.html">Prendre RDV</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Prendre rendez-vous</h1>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label>Nom : <input type="text" name="nom" required /></label><br/>
+      <label>Email : <input type="email" name="email" required /></label><br/>
+      <label>Téléphone : <input type="text" name="tel" required /></label><br/>
+      <label>Date de RDV : <input type="date" id="date" name="date" required /></label><br/>
+      <label>Véhicule : <input type="text" name="vehicule" /></label><br/>
+      <button type="submit">Envoyer</button>
+    </form>
+  </main>
+  <script>
+    const dateInput = document.getElementById("date");
+    const today = new Date();
+    today.setDate(today.getDate() + 1);
+    dateInput.min = today.toISOString().split("T")[0];
+  </script>
+</body>
+</html>
