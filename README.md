@@ -11,7 +11,7 @@
       background-color: #f5f5f5;
     }
     header {
-      background-image: url('WhatsApp%20Image%202025-04-09%20%C3%A0%2012.07.47_243e4ac1.jpg');
+      background-image: url('photo-garage.jpg');
       background-size: cover;
       background-position: center;
       color: white;
@@ -64,7 +64,7 @@
 </head>
 <body>
   <header>
-    <img src="LOGO_BRS MOTORS.PNG" alt="BRS MOTORS Logo" />
+    <img src="logo-brs.png" alt="BRS MOTORS Logo" />
     <h1>BRS MOTORS – L’occasion en toute confiance</h1>
     <p>Votre garage de confiance pour acheter, vendre ou déposer votre véhicule</p>
     <div class="cta">
